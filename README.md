@@ -14,7 +14,7 @@ A series of independent projects in R, Python, and SQL: statistics and machine l
  
 ## Regression & Machine Learning (Python, SQL)
  
-[Forecasting inflation using macroeconomic indicators](regression-ml/inflation-forecasting/analysis.ipynb) Tests whether unemployment, the federal funds rate, and consumer sentiment predict US CPI inflation one month ahead (FRED, monthly, 1991–2026). Finds they do not: OLS and Ridge both return a negative R² against a persistence baseline, and adding the indicators to that baseline raises test RMSE by 13% while improving in-sample fit. `Python` `SQL` `Ridge Regression` `Time Series Cross-Validation`
+[Forecasting inflation using macroeconomic indicators](Inflation_Forecasting/notebook/analysis.ipynb) Tests whether unemployment, the federal funds rate, and consumer sentiment predict US CPI inflation one month ahead (FRED, monthly, 1991–2026). Finds they do not: OLS and Ridge both return a negative R² against a persistence baseline, and adding the indicators to that baseline raises test RMSE by 13% while improving in-sample fit. `Python` `SQL` `Ridge Regression` `Time Series Cross-Validation`
  
 ---
  
